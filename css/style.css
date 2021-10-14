@@ -1,0 +1,30 @@
+nav { height: 70px;padding: 4px 0;}
+.margin { margin: 35px 0!important ; }
+.collection a.collection-item { display: flex; border: none; }
+.collection { border: none; }
+aside .material-icons, .message { margin: 0 10px }
+#friends-badge { min-width: inherit;  }
+.d-flex { display: flex; }
+.avatar-img { width: auto!important; height: auto!important; padding-left: 8px;  }
+.block { display: block; }
+#friends li { border: 2px solid; border-color: #eceff1; margin-bottom: 15px; padding: 20px 0; }
+#friends p { color: grey; }
+.border { border-top: 1px solid #eee; }
+.clearfix { overflow: auto; }
+.no-wrap { white-space: nowrap }
+.margin-bot-0 { margin-bottom: 0; }
+#serena-gallery div, .margin-top { margin-top: 10px!important;}
+#transparent-bg { background-color: rgba(0,0,0, .5); }
+.mar-left { margin-left: 20px ; }
+.grey-pad, .grey-mar i { color: grey; margin-right: 5px; }
+.table { display: table; }
+.pad-20 { padding: 20px; }
+#profile-display:after{ content:""; display:inline-block; clear: none;}
+.small-img { width: 35px; }
+.border-silver { border: 1px solid silver; box-shadow: 1px 1px 10px black; }
+@media only screen and (max-width: 660px) {
+	#friends .centering p { text-align: center;  }
+	#transparent-bg { font-size: 1rem; }
+	#input-text-events {  }
+	
+}
